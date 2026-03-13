@@ -1,0 +1,29 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m0plus",
+    "extra_flags": "-DSTM32G0B1xx",
+    "f_cpu": "64000000L",
+    "mcu": "stm32g0b1retx",
+    "variant": "STM32G0xx/G0B1RET_G0C1RET"
+  },
+  "debug": {
+    "jlink_device": "STM32G0B1RE",
+    "openocd_target": "stm32g0x",
+    "svd_path": "STM32G0B1.svd"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "Custom STM32G0B1RE",
+  "upload": {
+    "maximum_ram_size": 147456,
+    "maximum_size": 524288,
+    "protocol": "stlink",
+    "protocols": [
+      "stlink",
+      "dfu"
+    ]
+  },
+  "vendor": "Custom"
+}

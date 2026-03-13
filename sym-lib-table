@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "stm32_breakout")(type "KiCad")(uri "${KIPRJMOD}/libraries/stm32_breakout.kicad_sym")(options "")(descr ""))
+)

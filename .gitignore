@@ -1,0 +1,52 @@
+# KiCad - keep .kicad_pcb, .kicad_sch, .kicad_pro, .kicad_prl, .csv, *-lib-table
+*-backups/
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pro-bak
+*.kicad_prl-bak
+*.kicad_dru-bak
+*.kicad_dcm-bak
+*.kicad_lib-bak
+*.net
+*.pos
+*.drl
+*.gbr
+*.gbo
+*.gbp
+*.gbs
+*.gml
+*.gko
+*.gm1
+*.gtl
+*.gtp
+*.gbl
+*.gbl
+*.gbr
+*.css
+*.pdf
+*.xml
+*.html
+*.ser
+*.steps
+*.step
+*.wrl
+*.step.gz
+*.stp
+fp-info-cache
+~*
+*.lck
+
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/c_cpp_properties.json
+
+# PlatformIO
+.pio/
+.vscode/.env
+
+# OS
+.DS_Store
+Thumbs.db
